@@ -41,8 +41,9 @@ Plug 'jpokan/vim-sunbather'
 " Editor
 Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'mhinz/vim-signify'
+" Plug 'mhinz/vim-signify'
 Plug 'tikhomirov/vim-glsl'
+Plug 'airblade/vim-gitgutter'
 
 " File manager
 Plug 'preservim/nerdtree'
