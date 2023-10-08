@@ -1,7 +1,7 @@
-source sets.vim
+runtime sets.vim
 
 " Plugins with vim-plug
-source plugins.vim
+runtime plugins.vim
 
 " Nord theme config
 " let g:nord_bold_vertical_split_line = 1
@@ -22,10 +22,10 @@ let g:airline_theme='minimalist'
 highlight Directory ctermfg=15
 " highlight Visual ctermbg=231
 
-source remaps.vim
+runtime remaps.vim
 
 " source all plugin configs
-for f in split(globpath('./plugin-config', '**'), '\n')
-    exe 'source' f
+for f in split(globpath(stdpath('config').'/plugin-config', '**'), '\n')
+	exe 'source' f
 endfor
 
