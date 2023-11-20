@@ -1,4 +1,4 @@
-# Neovim configuration file 
+# Neovim configuration file
 
 Using:
 
@@ -9,3 +9,4 @@ Path to `init.vim` file: `~/AppData/Local/nvim/init.vim`
 
 Path to vim-plug folder: `~/AppData/Local/nvim-data/`
 
+Note!: Don't forget to install PlugVim, check their documentation for instructions on windows.
