@@ -23,8 +23,8 @@ Plug 'nvim-telescope/telescope-file-browser.nvim'
 
 " Typing
 Plug 'jiangmiao/auto-pairs'
-Plug 'alvan/vim-closetag'
-Plug 'AndrewRadev/tagalong.vim'
+"Plug 'alvan/vim-closetag'
+"Plug 'AndrewRadev/tagalong.vim'
 
 " Markdown
 Plug 'tpope/vim-markdown'
