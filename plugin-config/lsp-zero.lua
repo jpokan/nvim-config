@@ -30,3 +30,6 @@ cmp.setup({
 		['<CR>'] = cmp.mapping.confirm({select = true}),
 	})
 })
+
+-- Config servers
+lsp_zero.setup_servers({'tsserver'})
