@@ -10,10 +10,12 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jpokan/vim-sunbather'
 
 " Editor
-Plug 'tpope/vim-commentary'
+Plug 'numToStr/Comment.nvim'
+" Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
+" Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 
 " File manager
 Plug 'preservim/nerdtree'
@@ -44,6 +46,9 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
+
+" Tree sitter
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
