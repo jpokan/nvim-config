@@ -44,8 +44,11 @@ Plug 'williamboman/mason-lspconfig.nvim'
 "Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip', {'tag': 'v2.*', 'do': 'make install_jsregexp'}
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
+
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'xabikos/vscode-javascript'
 
 " Tree sitter
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

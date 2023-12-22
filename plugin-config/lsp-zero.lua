@@ -17,8 +17,15 @@ require('mason-lspconfig').setup({
 
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
+local cmp_format = require('lsp-zero').cmp_format()
+
+require("luasnip.loaders.from_vscode").lazy_load({ path = { "~/AppData/Local/nvim-data/plugged/vscode-javascript/snippets" } })
 
 cmp.setup({
+	sources = {
+		{name = 'nvim_lsp'},
+		{name = 'luasnip'},
+	},
 	window = {
 		completion = cmp.config.window.bordered(),
 		documentation = cmp.config.window.bordered(),
@@ -28,7 +35,9 @@ cmp.setup({
 		['<Tab>'] = cmp_action.luasnip_supertab({behavior = 'select'}),
 		['<S-Tab>'] = cmp_action.luasnip_shift_supertab({behavior = 'select'}),
 		['<CR>'] = cmp.mapping.confirm({select = true}),
-	})
+	}),
+
+	formatting = cmp_format,
 })
 
 -- Config servers
