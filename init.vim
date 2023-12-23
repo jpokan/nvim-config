@@ -3,12 +3,6 @@ runtime sets.vim
 " Plugins with vim-plug
 runtime plugins.vim
 
-" Nord theme config
-" let g:nord_bold_vertical_split_line = 1
-
-" Italics and syntax enabled for nord theme
-" let g:nord_italic = 1
-
 " Set bar and block cursors on diffrent modes
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[2 q"
@@ -20,7 +14,6 @@ syntax enable
 colorscheme	sunbather
 let g:airline_theme='minimalist'
 highlight Directory ctermfg=15
-" highlight Visual ctermbg=231
 
 runtime remaps.vim
 

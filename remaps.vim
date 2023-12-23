@@ -14,9 +14,6 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
-" Customize tpope/vim-commentary shortcut
-" map <C-_> <Plug>Commentary
-
 " Save with Ctrl + s
 nnoremap <c-s> :w<CR>
 inoremap <c-s> <Esc>:w<CR>l

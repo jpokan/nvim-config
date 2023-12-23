@@ -6,16 +6,13 @@ call plug#begin(stdpath('data') . '/plugged')
 " Theme
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'arcticicestudio/nord-vim'
 Plug 'jpokan/vim-sunbather'
 
 " Editor
 Plug 'numToStr/Comment.nvim'
-" Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
-" Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 
 " File manager
 Plug 'preservim/nerdtree'
@@ -25,8 +22,6 @@ Plug 'nvim-telescope/telescope-file-browser.nvim'
 
 " Typing
 Plug 'jiangmiao/auto-pairs'
-"Plug 'alvan/vim-closetag'
-"Plug 'AndrewRadev/tagalong.vim'
 
 " Markdown
 Plug 'tpope/vim-markdown'
@@ -49,9 +44,6 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'xabikos/vscode-javascript'
-
-" Tree sitter
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
