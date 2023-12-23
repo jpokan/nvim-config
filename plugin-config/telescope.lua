@@ -1,7 +1,7 @@
 require('telescope').setup({
 
-extensions = {
-	file_browser = {
+	extensions = {
+		file_browser = {
 			hidden = { file_browser = true, folder_browser = true },
 		},
 	},
@@ -15,4 +15,3 @@ vim.api.nvim_set_keymap(
 	":Telescope file_browser<CR>",
 	{ noremap = true }
 )
-
