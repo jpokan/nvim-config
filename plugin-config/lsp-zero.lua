@@ -6,6 +6,7 @@ lsp_zero.on_attach(function(client, bufnr)
   lsp_zero.default_keymaps({buffer = bufnr})
 end)
 
+-- Format on save
 lsp_zero.format_on_save({
   format_opts = {
     async = false,
@@ -28,8 +29,8 @@ require('mason-lspconfig').setup({
 
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
--- local cmp_format = require('lsp-zero').cmp_format()
 
+-- Snippets
 require("luasnip.loaders.from_vscode").lazy_load({ path = { "~/AppData/Local/nvim-data/plugged/vscode-javascript/snippets" } })
 
 cmp.setup({
@@ -51,8 +52,6 @@ cmp.setup({
 		['<S-Tab>'] = cmp_action.luasnip_shift_supertab({behavior = 'select'}),
 		['<CR>'] = cmp.mapping.confirm({select = true}),
 	}),
-
-	-- formatting = cmp_format,
 })
 
 -- Config servers
