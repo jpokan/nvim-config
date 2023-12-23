@@ -57,4 +57,4 @@ cmp.setup({
 
 -- Config servers
 lsp_zero.setup_servers({'tsserver'})
-require'lspconfig'.glsl_analyzer.setup{}
+-- require'lspconfig'.glsl_analyzer.setup{}
