@@ -46,6 +46,9 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'xabikos/vscode-javascript'
 
+" Prettier
+Plug 'prettier/vim-prettier'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
