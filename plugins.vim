@@ -18,7 +18,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-file-browser.nvim'
 
 " Typing
 Plug 'jiangmiao/auto-pairs'
