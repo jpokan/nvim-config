@@ -9,10 +9,10 @@ nnoremap <C-l> <C-w>l
 nnoremap f za
 
 " Find files using Telescope command-line sugar.
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <space>ff <cmd>Telescope find_files<cr>
+nnoremap <space>fg <cmd>Telescope live_grep<cr>
+nnoremap <space>fb <cmd>Telescope buffers<cr>
+nnoremap <space>fh <cmd>Telescope help_tags<cr>
 
 " Save with Ctrl + s
 nnoremap <c-s> :w<CR>
