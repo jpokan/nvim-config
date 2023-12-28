@@ -33,6 +33,12 @@ local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
 
 -- Snippets
+local luasnip = require('luasnip')
+luasnip.setup({
+	history = true,
+	region_check_events = "InsertEnter",
+	delete_check_events = "TextChanged,InsertLeave",
+})
 require("luasnip.loaders.from_vscode").lazy_load({ path = { "~/AppData/Local/nvim-data/plugged/vscode-javascript/snippets" } })
 
 cmp.setup({
