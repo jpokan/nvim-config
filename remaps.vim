@@ -23,5 +23,7 @@ vnoremap <c-s> <Esc>:w<CR>
 tnoremap <Esc><Esc> <C-\><C-N><cmd>FloatermToggle<cr>
 
 " Floaterm remaps
-nnoremap <space>tt <cmd>FloatermToggle<cr>
+nnoremap <space>tg <cmd>FloatermToggle<cr>
+nnoremap <space>tt <cmd>FloatermNew<cr>
+nnoremap <space>ll <cmd>FloatermNext<cr>
 
