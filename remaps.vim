@@ -18,3 +18,10 @@ nnoremap <space>fh <cmd>Telescope help_tags<cr>
 nnoremap <c-s> :w<CR>
 inoremap <c-s> <Esc>:w<CR>l
 vnoremap <c-s> <Esc>:w<CR>
+
+" Get out of integrated terminal
+tnoremap <Esc><Esc> <C-\><C-N><cmd>FloatermToggle<cr>
+
+" Floaterm remaps
+nnoremap <space>tt <cmd>FloatermToggle<cr>
+
