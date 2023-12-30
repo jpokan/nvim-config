@@ -14,6 +14,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
 
+" Terminal window
+Plug 'voldikss/vim-floaterm'
+
 " File manager
 Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
