@@ -9,7 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jpokan/vim-sunbather'
 
 " Editor
-Plug 'numToStr/Comment.nvim'
+Plug 'tomtom/tcomment_vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
