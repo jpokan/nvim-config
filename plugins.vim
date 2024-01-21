@@ -13,6 +13,9 @@ Plug 'tomtom/tcomment_vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
 
+" Github Copilot
+Plug 'github/copilot.vim'
+
 " Terminal window
 Plug 'voldikss/vim-floaterm'
 
