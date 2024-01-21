@@ -57,9 +57,10 @@ cmp.setup({
 	},
 	mapping = cmp.mapping.preset.insert({
 		-- `Enter` key to confirm completion
-		['<Tab>'] = cmp_action.luasnip_supertab({ behavior = 'select' }),
-		['<S-Tab>'] = cmp_action.luasnip_shift_supertab({ behavior = 'select' }),
+		['<C-J>'] = cmp_action.luasnip_supertab({ behavior = 'select' }),
+		['<C-K>'] = cmp_action.luasnip_shift_supertab({ behavior = 'select' }),
 		['<CR>'] = cmp.mapping.confirm({ select = true }),
+		['<C-A>'] = cmp.mapping.abort()
 	}),
 })
 
