@@ -12,6 +12,7 @@ Plug 'jpokan/vim-sunbather'
 Plug 'tomtom/tcomment_vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/goyo.vim'
 
 " Github Copilot
 Plug 'github/copilot.vim'

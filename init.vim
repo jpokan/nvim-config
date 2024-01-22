@@ -10,10 +10,17 @@ let &t_EI = "\e[2 q"
 " Syntax highlighting enabled
 syntax enable
 
+" For Goyo
+function! s:tweak_sunbather_colors()
+  " Your molokai customizations
+	highlight Directory ctermfg=15
+endfunction
+autocmd! ColorScheme sunbather call s:tweak_sunbather_colors()
+
 " Theme tweaks
 colorscheme	sunbather
 let g:airline_theme='minimalist'
-highlight Directory ctermfg=15
+" highlight Directory ctermfg=15
 
 runtime remaps.vim
 
