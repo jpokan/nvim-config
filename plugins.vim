@@ -27,6 +27,7 @@ Plug 'nvim-telescope/telescope.nvim'
 
 " Typing
 Plug 'jiangmiao/auto-pairs'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " Markdown
 Plug 'tpope/vim-markdown'
