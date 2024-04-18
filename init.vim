@@ -18,9 +18,8 @@ endfunction
 autocmd! ColorScheme sunbather call s:tweak_sunbather_colors()
 
 " Theme tweaks
-colorscheme	sunbather
+colorscheme sunbather
 let g:airline_theme='minimalist'
-" highlight Directory ctermfg=15
 
 runtime remaps.vim
 

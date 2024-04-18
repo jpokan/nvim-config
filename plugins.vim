@@ -7,6 +7,7 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jpokan/vim-sunbather'
+Plug 'rose-pine/neovim'
 
 " Editor
 Plug 'tomtom/tcomment_vim'
@@ -15,7 +16,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 
 " Github Copilot
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 " Terminal window
 Plug 'voldikss/vim-floaterm'
