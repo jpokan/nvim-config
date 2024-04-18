@@ -53,7 +53,10 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'xabikos/vscode-javascript'
 
 " Prettier
-Plug 'prettier/vim-prettier'
+" Plug 'prettier/vim-prettier'
+
+" Formatter
+Plug 'mhartington/formatter.nvim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
