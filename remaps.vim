@@ -25,7 +25,7 @@ tnoremap <Esc><Esc> <C-\><C-N><cmd>FloatermToggle<cr>
 " Floaterm remaps
 nnoremap <space>tg <cmd>FloatermToggle<cr>
 nnoremap <space>tt <cmd>FloatermNew<cr>
-nnoremap <space>ll <cmd>FloatermNext<cr>
+nnoremap <space>tl <cmd>FloatermNext<cr>
 
 " Remap TAB key for copilot
 " imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
