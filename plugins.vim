@@ -7,7 +7,6 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jpokan/vim-sunbather'
-Plug 'rose-pine/neovim'
 
 " Editor
 Plug 'tomtom/tcomment_vim'
@@ -58,6 +57,8 @@ Plug 'xabikos/vscode-javascript'
 
 " Formatter
 Plug 'mhartington/formatter.nvim'
+
+" Syntax
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

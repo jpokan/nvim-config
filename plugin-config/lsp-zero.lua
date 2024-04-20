@@ -16,7 +16,7 @@ lsp_zero.format_on_save({
 		['glsl_analyzer'] = { 'glsl', 'frag', 'vert' },
 		['lua_ls'] = { 'lua' },
 		['tsserver'] = { 'javascript', 'typescript' },
-		['vimls'] = { 'vim' }
+		['vimls'] = { 'vim' },
 		-- ['volar'] = { 'vue' }
 	}
 })

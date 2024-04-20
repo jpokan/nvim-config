@@ -29,3 +29,4 @@ for f in split(globpath(stdpath('config').'/plugin-config', '**'), '\n')
 endfor
 
 autocmd BufEnter * :syntax sync fromstart
+
