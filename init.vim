@@ -11,8 +11,10 @@ let &t_EI = "\e[2 q"
 syntax enable
 
 " For Goyo
+
+let g:goyo_width = 120
 function! s:tweak_sunbather_colors()
-  " Your molokai customizations
+	" Your molokai customizations
 	highlight Directory ctermfg=15
 endfunction
 autocmd! ColorScheme sunbather call s:tweak_sunbather_colors()
