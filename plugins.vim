@@ -58,8 +58,6 @@ Plug 'xabikos/vscode-javascript'
 " Formatter
 Plug 'mhartington/formatter.nvim'
 
-" Syntax
-
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 

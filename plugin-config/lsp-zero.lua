@@ -63,6 +63,19 @@ cmp.setup({
 		['<CR>'] = cmp.mapping.confirm({ select = true }),
 		['<C-A>'] = cmp.mapping.abort()
 	}),
+	formatting = {
+		format = function(entry, vim_item)
+			if entry.source.name == "buffer" then
+				vim_item.menu = "[Buffer]"
+			elseif entry.source.name == "nvim_lsp" then
+				vim_item.menu = '[' .. entry.source.source.client.name .. ']'
+			else
+				vim_item.menu = '[' .. entry.source.name .. ']'
+			end
+
+			return vim_item
+		end
+	}
 })
 
 -- Config language servers
