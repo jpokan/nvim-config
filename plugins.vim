@@ -13,6 +13,7 @@ Plug 'tomtom/tcomment_vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Github Copilot
 " Plug 'github/copilot.vim'
