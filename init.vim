@@ -15,7 +15,7 @@ syntax enable
 let g:goyo_width = 120
 function! s:tweak_sunbather_colors()
 	" Your molokai customizations
-	highlight Directory ctermfg=15
+	highlight Directory ctermfg=15 guifg=#ffffff
 endfunction
 autocmd! ColorScheme sunbather call s:tweak_sunbather_colors()
 
