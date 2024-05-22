@@ -1,4 +1,5 @@
 local lsp_zero = require('lsp-zero')
+local lspconfig = require 'lspconfig'
 
 lsp_zero.on_attach(function(client, bufnr)
 	-- see :help lsp-zero-keybindings
@@ -47,6 +48,7 @@ cmp.setup({
 	sources = {
 		{ name = 'nvim_lsp' },
 		{ name = 'luasnip' },
+		{ name = 'buffer' },
 	},
 	window = {
 		completion = cmp.config.window.bordered({
@@ -79,5 +81,4 @@ cmp.setup({
 })
 
 -- Config language servers
-lsp_zero.setup_servers({ 'tsserver' })
-require 'lspconfig'.glsl_analyzer.setup {}
+lspconfig.glsl_analyzer.setup {}
