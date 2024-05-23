@@ -14,6 +14,7 @@ lsp_zero.format_on_save({
 		timeout_ms = 10000,
 	},
 	servers = {
+		['jsonls'] = { 'json' },
 		['glsl_analyzer'] = { 'glsl', 'frag', 'vert' },
 		['lua_ls'] = { 'lua' },
 		['tsserver'] = { 'javascript', 'typescript' },
