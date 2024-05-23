@@ -23,6 +23,12 @@ autocmd! ColorScheme sunbather call s:tweak_sunbather_colors()
 colorscheme sunbather
 let g:airline_theme='minimalist'
 
+" Transparency
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
 runtime remaps.vim
 
 " source all plugin configs
