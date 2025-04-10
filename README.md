@@ -7,35 +7,43 @@ Using:
 -   Windows 11
 -   Windows terminal
 
-Path to `init.vim` file: `~/AppData/Local/nvim/init.vim`
+Useful paths:
 
-Path to vim-plug folder: `~/AppData/Local/nvim-data/`
+Path to `init.lua` file: `~/AppData/Local/nvim/init.lua`
+Path to plugins folder: `~/AppData/Local/nvim-data/`
 
-Note!: Don't forget to install PlugVim, check their documentation for instructions on windows.
+Using LazyVim for managing plugins instead of plugins
 
-Note!: Don't forget to install the required formatter for styling and/or language servers for linting with `:Mason`.
+- Go to AppData folder `cd ~AppData/Local`
+- You can `git clone https://github.com/jpokan/nvim-config.git`
+- Change the folder name from nvim-config to nvim `mv ./nvim-config /nvim`
 
-In this case:
+This setup requires a C compiler installed and added to the environment variables.
+
+- Install MSYS2.
+- If using MSYS2 UCRT64 terminal add `C:\msys64\ucrt64\bin` to PATH on environment variables.
+
+Install formatter for styling and/or language servers for linting with `:Mason`.
+
 Language Servers
 
 ```
+- emmet_language_server
+- lua_ls
 - volar
-- tsserver
 - tailwindcss
 - vimls
-- lua_ls
 ```
 
 Formatters
 
 ```
 - stylua
-- prettier
+- prettierd
+- shfmt
 ```
 
 Format on save is enabled by default.
-
-Use `:Prettier` command to make the finishing touches of file formatting, like semicolons.
 
 The following tools are required, install manually:
 
@@ -56,3 +64,4 @@ To install `ripgrep`:
 -   Extract to a folder and rename it to `ripgrep/`
 -   Copy the folder to where you want e.g. `C:\Users\Mada\ripgrep`
 -   Add the installed folder PATH to environment variables
+
