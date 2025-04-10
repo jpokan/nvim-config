@@ -1,7 +1,6 @@
 return {
 	"snacks.nvim",
 	opts = {
-		indent = { enabled = false },
 		dashboard = {
 			preset = {
 				pick = function(cmd, opts)

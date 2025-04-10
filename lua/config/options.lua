@@ -8,6 +8,13 @@ opt.tabstop = 4 -- number of visual spaces per TAB
 opt.softtabstop = 4 -- number of spaces inserted for a TAB
 opt.shiftwidth = 4 -- number of spaces for each indentation
 opt.expandtab = false -- use actual TAB characters, not spaces
+opt.wrap = true
+opt.relativenumber = false
 
 -- hide ">" characters when using tab
-vim.opt.list = false
+opt.list = false
+
+-- vim.api.nvim_set_hl(0, "VertSplit", { fg = "NONE", bg = "#333300" })
+-- vim.opt.fillchars:append({ vert = "█" })
+-- vim.opt.fillchars:append({ vert = "│" })
+vim.opt.fillchars:append({ vert = " " })

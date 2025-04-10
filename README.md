@@ -16,7 +16,7 @@ Using LazyVim for managing plugins instead of plugins
 
 - Go to AppData folder `cd ~AppData/Local`
 - You can `git clone https://github.com/jpokan/nvim-config.git`
-- Change the folder name from nvim-config to nvim `mv ./nvim-config /nvim`
+- Change the folder name from nvim-config to nvim `mv ./nvim-config /nvim` (run terminal as administrator) or just rename normally
 
 This setup requires a C compiler installed and added to the environment variables.
 
