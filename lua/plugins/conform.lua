@@ -4,13 +4,13 @@ return {
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
-			-- vue = { "prettier" },
-			-- javascript = { "prettier" },
-			-- typescript = { "prettier" },
-			-- html = { "prettier" },
-			-- css = { "prettier" },
-			-- json = { "prettier" },
-			-- markdown = { "prettier" },
+			vue = { "prettier" },
+			javascript = { "prettier" },
+			typescript = { "prettier" },
+			html = { "prettier" },
+			css = { "prettier" },
+			json = { "prettier" },
+			markdown = { "prettier" },
 			-- Add more filetypes as needed
 		},
 	},
