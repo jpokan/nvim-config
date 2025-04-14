@@ -1,7 +1,7 @@
 return {
 	{
 		"nvim-lualine/lualine.nvim",
-		enabled = false,
+		-- enabled = false,
 	},
 	-- {
 	-- 	"lewis6991/gitsigns.nvim",
@@ -16,10 +16,10 @@ return {
 		"akinsho/bufferline.nvim",
 		enabled = false,
 	},
-	{
-		"echasnovski/mini.ai",
-		enabled = false,
-	},
+	-- {
+	-- 	"echasnovski/mini.ai",
+	-- 	enabled = false,
+	-- },
 	{
 		"MagicDuck/grug-far.nvim",
 		enabled = false,
