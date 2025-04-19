@@ -4,8 +4,8 @@ This setup is optimized and configured to work with web technologies: javascript
 
 Using:
 
--   Windows 11
--   Windows terminal
+- Windows 11
+- Windows terminal
 
 Useful paths:
 
@@ -53,15 +53,18 @@ The following tools are required, install manually:
 
 To install `glsl_analyzer`:
 
--   Download binary file from realeases e.g. `x86_64-windows.zip`
--   Extract to a folder and rename it to `glsl_analyzer/`
--   Copy the folder to where you want e.g. `C:\Users\Mada\glsl_analyzer\bin`
--   Add the installed folder PATH to environment variables
+- Download binary file from realeases e.g. `x86_64-windows.zip`
+- Extract to a folder and rename it to `glsl_analyzer/`
+- Copy the folder to where you want e.g. `C:\Users\Mada\glsl_analyzer\bin`
+- Add the installed folder PATH to environment variables
 
 To install `ripgrep`:
 
--   Download binary file from realeases e.g. `ripgrep-14.0.3-i686-pc-windows-msvc.zip`
--   Extract to a folder and rename it to `ripgrep/`
--   Copy the folder to where you want e.g. `C:\Users\Mada\ripgrep`
--   Add the installed folder PATH to environment variables
+- Download binary file from realeases e.g. `ripgrep-14.0.3-i686-pc-windows-msvc.zip`
+- Extract to a folder and rename it to `ripgrep/`
+- Copy the folder to where you want e.g. `C:\Users\Mada\ripgrep`
+- Add the installed folder PATH to environment variables
 
+Treesitter
+
+Install Treesitter parser for vue files `TSInstall vue`
