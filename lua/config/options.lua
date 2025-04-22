@@ -17,4 +17,4 @@ opt.list = false
 -- vim.api.nvim_set_hl(0, "VertSplit", { fg = "NONE", bg = "#333300" })
 -- vim.opt.fillchars:append({ vert = "█" })
 -- vim.opt.fillchars:append({ vert = "│" })
-vim.opt.fillchars:append({ vert = " " })
+-- vim.opt.fillchars:append({ vert = " " })

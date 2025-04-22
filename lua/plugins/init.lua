@@ -16,7 +16,7 @@ return {
 	},
 
 	-- Terminal
-	-- { "voldikss/vim-floaterm", event = "VeryLazy" },
+	{ "voldikss/vim-floaterm", event = "VeryLazy" },
 
 	-- File manager & Telescope
 	{
@@ -25,7 +25,7 @@ return {
 		-- cmd = { "NERDTree" },
 	},
 	-- { "nvim-lua/plenary.nvim" },
-	-- { "nvim-telescope/telescope.nvim" },
+	{ "nvim-telescope/telescope.nvim" },
 
 	-- Typing
 	-- { "jiangmiao/auto-pairs" },
