@@ -1,9 +1,9 @@
 return {
 	-- CODING
-	{
-		"echasnovski/mini.pairs",
-		enabled = false,
-	},
+	-- {
+	-- 	"echasnovski/mini.pairs",
+	-- 	enabled = false,
+	-- },
 	-- {
 	-- 	"folke/ts-comments.nvim",
 	-- 	enabled = false,

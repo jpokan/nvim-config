@@ -6,6 +6,9 @@ return {
 		-- hides cmd input window
 		-- input = { enabled = false },
 		-- picker = { enabled = false },
+		words = {
+			enabled = false,
+		},
 		dashboard = {
 			preset = {
 				pick = function(cmd, opts)
