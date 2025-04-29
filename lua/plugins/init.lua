@@ -25,7 +25,18 @@ return {
 		-- cmd = { "NERDTree" },
 	},
 	-- { "nvim-lua/plenary.nvim" },
-	{ "nvim-telescope/telescope.nvim" },
+	{
+		"nvim-telescope/telescope.nvim",
+		opts = function()
+			return {
+				defaults = {
+					preview = {
+						treesitter = false, -- ⛔ Disable Tree-sitter in previewer that causes conceal error
+					},
+				},
+			}
+		end,
+	},
 
 	-- Typing
 	-- { "jiangmiao/auto-pairs" },

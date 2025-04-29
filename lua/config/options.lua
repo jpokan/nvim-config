@@ -14,9 +14,6 @@ opt.relativenumber = false
 -- hide ">" characters when using tab
 opt.list = false
 
-for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
-	vim.api.nvim_set_hl(0, group, {})
-end
 -- vim.api.nvim_set_hl(0, "VertSplit", { fg = "NONE", bg = "#333300" })
 -- vim.opt.fillchars:append({ vert = "█" })
 -- vim.opt.fillchars:append({ vert = "│" })
